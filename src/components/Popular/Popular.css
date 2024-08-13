@@ -22,3 +22,10 @@
     display: flex;
     gap: 30px;
 }
+
+.popular-item img{
+    width: 110%;
+    height: 60%;
+    margin-left: 10px;
+    padding-right: 10px;
+}

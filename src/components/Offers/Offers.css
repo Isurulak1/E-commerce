@@ -35,6 +35,7 @@
     font-weight: 500;
     margin-top: 30px;
     cursor: pointer;
+    margin-right: 20px;
 }
 .offers-right{
     flex: 1;

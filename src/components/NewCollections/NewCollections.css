@@ -22,3 +22,8 @@
     margin-top: 50px;
     gap:30px;
 }
+.collections img{
+    width: 110%;
+    height: 80%;
+    
+}
