@@ -1,12 +1,11 @@
 import p1_img from "./product12.jpg";
-import p2_img from "./product_35.png";
+import p2_img from "./product35.jpg";
 import p3_img from "./product14.jpeg";
 import p4_img from "./product8.jpg";
 import p5_img from "./product15.jpeg";
 import p6_img from "./product2.jpg";
 import p7_img from "./product17.jpeg";
-import p8_img from "./product_28.png";
-
+import p8_img from "./product28.jpg";
 let new_collections = [
   {
     id: 12,

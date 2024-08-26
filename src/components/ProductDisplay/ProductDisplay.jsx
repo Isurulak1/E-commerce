@@ -3,7 +3,7 @@ import './ProductDisplay.css'
 import star_icon from '../assests/star_icon.png';
 import star_dull_icon from '../assests/star_dull_icon.png';
 
-export const ProductDisplay = (props) => {
+const ProductDisplay = (props) => {
     const {product} = props;
   return (
     <div className='productdisplay'>
@@ -28,7 +28,25 @@ export const ProductDisplay = (props) => {
                 <img src={star_dull_icon} alt="" />
                 <p>(122)</p>
             </div>
+            <div className="productdisplay-right-price">
+                <div className="productdisplay-right-price-old">${product.old_price}</div>
+                <div className="productdisplay-right-price-new">${product.new_price}</div>
+            </div>
+            <div className="productdisplay-right-description">
+            A product description is more than just a few words about the products you sell in your online shop. A good product description informs shoppers and can persuade them to pull the trigger on a purchase.
+            </div>
+            <div className="productdisplay-right-size">
+                <h1>Select Size</h1>
+                <div className="productdisplay-right-size">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
         </div>
     </div>
   )
 }
+export default ProductDisplay;
